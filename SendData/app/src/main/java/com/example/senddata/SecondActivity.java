@@ -20,6 +20,14 @@ public class SecondActivity extends AppCompatActivity {
         }
     }
     public void onClickClose(View view) {
+        Intent returnIntent = new Intent();
+        returnIntent.putExtra(MainActivity.REQUEST_RESULT,42);
+        setResult(RESULT_OK,returnIntent);
+        finish();
+
+
+
+
         finish();
     }
 

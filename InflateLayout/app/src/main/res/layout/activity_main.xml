@@ -21,5 +21,11 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditText"
+        tools:ignore="MissingConstraints"/>
+
 
 </android.support.constraint.ConstraintLayout>
